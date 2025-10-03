@@ -33,17 +33,18 @@ Make sure you have the following installed:
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install -g bun
+   bun install
    ```
 
 3. **Create a `.env` file in `backend/` with the following:**
    ```env
-   SECRET=your-secret-key
+   copy the .env.sample file and give the unique string
    ```
 
 4. **Run the server**
    ```bash
-   npm run dev
+   bun run dev
    ```
    
    or
@@ -68,6 +69,7 @@ Make sure you have the following installed:
 
 2. **Install dependencies**
    ```bash
+   npm install -g bun
    bun install
    ```
 
@@ -141,5 +143,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ using Express, React, and Bun
-
-encourage to contribute
