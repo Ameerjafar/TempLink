@@ -1,4 +1,4 @@
-# 🎥 Video URL Shortener
+# 🎥 Generate Temporary Link
 
 A full-stack app to generate **secure, encrypted, and temporary short links** for video content.  
 - **Backend:** Express + Node.js (crypto for AES encryption/decryption)  
